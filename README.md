@@ -1,13 +1,15 @@
-## Inicio del Formulario 
-<p align="center">
-  <img src="ImagenPortada.png" alt="Portada - Taller Registro de Aspirantes" width="800">
-</p>
-
 # Taller: Registro de Aspirantes (Laboratorio #3)
 --Estudiante: Gabriel Mendoza 8-1038-1624
 
 Objetivo realizar un Formulario web de registro de aspirantes desarrollado con **HTML5, Bootstrap 5.3.8 y PHP**, sin base de datos. 
 Que Valide los datos en el servidor, estandariza los textos y guarda la fotografía del aspirante de forma segura.
+
+
+## Inicio del Formulario 
+<p align="center">
+  <img src="ImagenPortada.png" alt="Portada - Taller Registro de Aspirantes" width="800">
+</p>
+
 
 
 ## Registro de usuario
