@@ -1,3 +1,4 @@
+## Inicio del Formulario 
 <p align="center">
   <img src="ImagenPortada.png" alt="Portada - Taller Registro de Aspirantes" width="800">
 </p>
@@ -9,7 +10,7 @@ Objetivo realizar un Formulario web de registro de aspirantes desarrollado con *
 Que Valide los datos en el servidor, estandariza los textos y guarda la fotografía del aspirante de forma segura.
 
 
-## Vista previa
+## Registro de usuario
 
 <p align="center">
   <img src="Registro.png" alt="Formulario de Registro de Aspirantes - PortalU" width="700">
