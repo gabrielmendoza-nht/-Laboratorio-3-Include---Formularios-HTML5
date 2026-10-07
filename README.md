@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="ImagenPortada.png" alt="Portada - Taller Registro de Aspirantes" width="800">
+</p>
+
 # Taller: Registro de Aspirantes (Laboratorio #3)
 --Estudiante: Gabriel Mendoza 8-1038-1624
 
@@ -5,19 +9,25 @@ Objetivo realizar un Formulario web de registro de aspirantes desarrollado con *
 Que Valide los datos en el servidor, estandariza los textos y guarda la fotografía del aspirante de forma segura.
 
 
+## Vista previa
+
+<p align="center">
+  <img src="Registro.png" alt="Formulario de Registro de Aspirantes - PortalU" width="700">
+</p>
+
+
 ## Estructura del proyecto
 
 ```
-Taller-Aspirantes/
-├── includes/
-│   ├── header.php        # Metadatos, <header>, navbar y breadcrumb dinámico
-│   └── footer.php        # <footer> con enlaces y año dinámico
-├── uploaded_files/
-│   ├── .htaccess         # Bloquea el acceso a las fotos desde el navegador
-│   └── .gitkeep          # Mantiene la carpeta en Git aunque esté vacía
-├── index.php             # Formulario de registro
+-Laboratorio-3-Include---Formularios-HTML5/
+├── .htaccess             # Bloquea el acceso a las fotos desde el navegador
+├── ImagenPortada.png     # Imagen de portada del README
+├── Registro.png          # Captura del formulario de registro
+├── Index.php             # Formulario de registro
 ├── procesar.php          # Backend: valida, formatea y guarda
-
+├── header.php            # Metadatos, <header>, navbar y breadcrumb dinámico
+├── footer.php            # <footer> con enlaces y año dinámico
+└── README.md
 ```
 
 ## Requisitos
@@ -30,7 +40,7 @@ Taller-Aspirantes/
 
 ## Funcionamiento
 
-### Formulario (`index.php`)
+### Formulario (`Index.php`)
 
 Campos obligatorios, todos con `required` y `placeholder`:
 
@@ -58,7 +68,7 @@ El formulario usa `method="POST"` y `enctype="multipart/form-data"`, necesario p
 
 `header.php` y `footer.php` se incluyen en ambas páginas. El breadcrumb cambia según la página usando `basename($_SERVER['PHP_SELF'])`:
 
-- En `index.php`: Inicio / Registro de Aspirante
+- En `Index.php`: Inicio / Registro de Aspirante
 - En `procesar.php`: Inicio / Registro / Procesando Datos
 
 ## Seguridad
